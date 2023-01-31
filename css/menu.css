@@ -1,0 +1,50 @@
+ul{
+    list-style: none;  /*Tirando bolinhas da lista*/
+    padding: 0%;
+  
+    
+}
+
+li a {
+    text-decoration: none;
+}
+.menu{ 
+
+    display: flex;
+    position: fixed; /*Deixo o meu menu fixo, assim quando desso a barra de rolagem ela não sobe junto com o conteudo*/
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: 	#AFEEEE;
+    
+   
+   
+    /** Configuração da cor do menu
+    display: flex;
+    position:fixed;
+    height: 40px;
+    width: 100%;
+    background-color: #ff90ab;**/
+
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+   
+}
+.header-nav{
+   display:flex;
+   justify-content: flex-end;
+   width: 100%; 
+   align-items: center;
+   
+}
+   
+
+a:hover {
+    color: rgb(255, 0, 195);
+}
+

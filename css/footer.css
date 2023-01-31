@@ -1,0 +1,30 @@
+.footer-img{
+    height: 40px;
+    width: 40px;
+}
+.footer{
+ display: flex;
+
+ background-color: 	#AFEEEE;
+
+
+
+   
+}
+
+.lista-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    /*A propriedade whdth só funciona se eu tiver o JUSTIFY-CONTENT:SPACE-EVENLY
+    ou seja, ele da um espaço entre o conteudo*/
+
+    
+}
+.footer-nav{
+    display:flex;
+    justify-content: flex-end;
+    width: 55%;
+    margin-top: 20px;
+    
+}
