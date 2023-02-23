@@ -150,12 +150,14 @@ ul{
 }
 
 
+
+
 .sesao{
   
     display: flex;
    margin-left: 35px;
    margin-right: 35px;
-    background-color:aqua;
+    
     
 
     
@@ -188,7 +190,7 @@ ul{
 }
 .sobre-tex{
  
-    padding-top: 90px;
+    padding-top: 40px;
     padding-left: 40px;
     
     
@@ -202,7 +204,7 @@ ul{
 }
 
     .lista-id{
-        padding-top: 100px;
+        padding-top: 40px;
         
         display: flex;
         flex-direction: column;
@@ -212,7 +214,7 @@ ul{
     
         
     }
-
+   
 
 .lista-redes{
     
@@ -233,7 +235,7 @@ ul{
 }
 .conteudo-lista{
     /*Espaçamento da lista do conteudo da foto*/
-    padding-left: 100px;
+    padding-left: 50px;
     
 }
 .lista-id h3{
@@ -246,4 +248,36 @@ ul{
 
 
 
-
+.mapa-img{
+    height:100%;
+    width:500px;
+    
+   
+}
+.abaut{
+    display: flex;
+    gap: 50px;
+    padding-top:50px;
+    
+  
+}
+.caixa{
+    padding-top: 100px;
+    
+}
+.caixa p,h1{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.botao-button{
+    display: flex;
+   justify-content: center;
+    padding-top: 50px;
+    
+    
+}
+@media screen and (max-width:768px){
+    .abaut{
+        flex-direction:column;
+    }
+}
